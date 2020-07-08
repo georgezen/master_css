@@ -1,0 +1,88 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.titulo {
+  display: block;
+  margin-top: 10px;
+  color: green;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  background-color: #ccc;
+  border: 3px solid black;
+}
+.container .caja {
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  border: 1px solid black;
+  text-align: center;
+  font-size: 100px;
+  color: #095b9e;
+}
+.container .red {
+  background-color: red;
+}
+.container .blue {
+  background-color: blue;
+}
+.container .orange {
+  background-color: orange;
+}
+.container .pink {
+  background-color: pink;
+}
+
+.container2 {
+  display: flex;
+  flex-flow: row wrap;
+  background-color: purple;
+}
+.container2 .caja2 {
+  flex-grow: 1;
+  border: 1px solid red;
+  font-size: 30px;
+  margin: 10px;
+}
+.container2 .purple {
+  background-color: purple;
+}
+.container2 .white {
+  background-color: white;
+}
+.container2 .black {
+  background-color: black;
+}
+.container2 .gray {
+  background-color: gray;
+}
+
+.container3 {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  height: 400px;
+  align-items: center;
+  margin-top: 3%;
+  background-color: #cccc22;
+  border: 1px solid yellow;
+}
+.container3 .caja3 {
+  border: 1px solid tomato;
+  font-size: 30px;
+  color: white;
+  margin: 20px;
+}
+.container3 .caja3-1 {
+  background-color: red;
+}
+
+/*# sourceMappingURL=style.css.map */

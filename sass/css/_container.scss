@@ -1,0 +1,50 @@
+$blick: block;
+ //mixing / funciones
+
+@mixin estilo_caja ($color,$borde,$ancho,$alto){
+    width: $ancho;
+    height: $alto;
+    background-color: $color;
+    border:$borde;
+    
+}
+//anidacion de selectores css para sass y
+.alguna{
+    @include estilo_caja(orange,3px solid black ,100% ,500px );
+    .caja{
+        
+        @include estilo_caja(pink,1px solid green,80% ,200px );
+        margin:0px auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        
+    }
+
+    
+}
+
+
+.form{
+    display: $blick;
+    width: 25%;
+    height: 130px;
+    margin: 0px auto;
+    margin-top: 20px;
+    border: 1px solid gray;
+    label{
+        display: $blick;
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
+
+    input[type="text"],input[type="submit"]{
+        display: $blick;
+        margin:0px auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    
+}

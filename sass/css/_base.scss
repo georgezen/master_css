@@ -1,0 +1,20 @@
+$fuente: Verdana;
+$color-header-footer: #ccc;
+$reset_padding: 0px;
+$reset_margin:0px; 
+
+body{
+
+    margin: $reset_margin;
+    padding: $reset_padding;
+    background-color: $color-header-footer;
+    font-family: $fuente;
+}
+
+
+#footer{
+    width: 100%;
+    background-color: red;
+
+}
+

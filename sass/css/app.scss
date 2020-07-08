@@ -1,0 +1,16 @@
+// Esta madre de use o import, importa archivos base de sass para un archivo principal de sass
+
+@use 'base';
+@use 'container';
+
+
+// css con sass del propio archivo
+
+.titulo{
+    text-align: center;
+}
+
+
+
+
+

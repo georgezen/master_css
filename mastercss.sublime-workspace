@@ -1,0 +1,740 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"mar",
+				"margin-top\tproperty"
+			],
+			[
+				"fon",
+				"font-size\tproperty"
+			],
+			[
+				"tex",
+				"text"
+			],
+			[
+				"margi",
+				"margin-left\tproperty"
+			],
+			[
+				"max",
+				"max-width\tproperty"
+			],
+			[
+				"margin",
+				"margin\tproperty"
+			],
+			[
+				"marg",
+				"margin-top\tproperty"
+			],
+			[
+				"fo",
+				"footer"
+			],
+			[
+				"asi",
+				"aside"
+			],
+			[
+				"fi",
+				"fieldset\t<fieldset>"
+			],
+			[
+				"pad",
+				"padding\tproperty"
+			],
+			[
+				"font-s",
+				"font-size\tproperty"
+			],
+			[
+				"mari",
+				"margin-top\tproperty"
+			],
+			[
+				"text-",
+				"text-align\tproperty"
+			],
+			[
+				"rgb",
+				"rgba()\tbackground-color"
+			],
+			[
+				"rg",
+				"rgba()\tcolor"
+			],
+			[
+				"padi",
+				"padding-top\tproperty"
+			],
+			[
+				"bord",
+				"border\tproperty"
+			],
+			[
+				"bor",
+				"border\tproperty"
+			],
+			[
+				"bo",
+				"border\tproperty"
+			],
+			[
+				"lab",
+				"label\t<label> with <input>"
+			],
+			[
+				"sty",
+				"list-style\tproperty"
+			],
+			[
+				"section",
+				"section"
+			],
+			[
+				"head",
+				"header\t<header>"
+			],
+			[
+				"arti",
+				"article\t<article>"
+			],
+			[
+				"li",
+				"line-height\tproperty"
+			],
+			[
+				"min-",
+				"min-height\tproperty"
+			],
+			[
+				"input",
+				"inputt\tinput - text"
+			],
+			[
+				"z",
+				"z-index\tproperty"
+			],
+			[
+				"back",
+				"background-color\tproperty"
+			],
+			[
+				"border-r",
+				"border-right\tproperty"
+			],
+			[
+				"list",
+				"list-style\tproperty"
+			],
+			[
+				"bacl",
+				"background-color\tproperty"
+			],
+			[
+				"font",
+				"font-size\tproperty"
+			],
+			[
+				"lo",
+				"logo.png\tw:512 h:512"
+			],
+			[
+				"box",
+				"box-shadow\tproperty"
+			],
+			[
+				"tran",
+				"transition\tproperty"
+			],
+			[
+				"over",
+				"overflow-y\tproperty"
+			],
+			[
+				"text-d",
+				"text-decoration\tproperty"
+			],
+			[
+				"cajas",
+				"6.cajas"
+			],
+			[
+				"hea",
+				"header\t<header>"
+			],
+			[
+				"col",
+				"color\tproperty"
+			],
+			[
+				"wi",
+				"width\tproperty"
+			],
+			[
+				"inp",
+				"inputb\tinput - button"
+			],
+			[
+				"cur",
+				"cursor\tproperty"
+			],
+			[
+				"he",
+				"header"
+			],
+			[
+				"text-a",
+				"text-align\tproperty"
+			],
+			[
+				"im",
+				"img"
+			],
+			[
+				"b",
+				"br\t<br>"
+			],
+			[
+				"label",
+				"label\t<label>"
+			],
+			[
+				"sal",
+				"saldo.html"
+			],
+			[
+				"th",
+				"th\t<th>"
+			],
+			[
+				"la",
+				"lang\tAttr"
+			],
+			[
+				"htm",
+				"html5\tSimple HTML5 Boilerplate"
+			],
+			[
+				"a",
+				"a\t<a>"
+			],
+			[
+				"html",
+				"html5\tSimple HTML5 Boilerplate"
+			],
+			[
+				"inpu",
+				"inputs\tinput - submit"
+			],
+			[
+				"pa",
+				"placeholder\tAttr"
+			],
+			[
+				"putita",
+				"putita2"
+			],
+			[
+				"app",
+				"append\t.append()"
+			],
+			[
+				"pu",
+				"putita2"
+			],
+			[
+				"puti",
+				"putita2"
+			],
+			[
+				"appe",
+				"appendChild\t( node: Node ): Node Node"
+			],
+			[
+				"create",
+				"createElement〔function〕"
+			],
+			[
+				"LI",
+				"LIMITE_TOTAL"
+			],
+			[
+				"esta",
+				"estado_emocional"
+			],
+			[
+				"fle",
+				"flex-grow\tproperty"
+			],
+			[
+				"au",
+				"auto\theight"
+			],
+			[
+				"wra",
+				"wrap"
+			],
+			[
+				"sr",
+				"srcset\tAttr"
+			],
+			[
+				"title",
+				"title\tAttr"
+			],
+			[
+				"ma",
+				"margin-footer"
+			],
+			[
+				"styl",
+				"style\tAttr"
+			],
+			[
+				"win",
+				"window"
+			],
+			[
+				"console",
+				"console_log"
+			],
+			[
+				"cl",
+				"click\t.click()"
+			],
+			[
+				"aja",
+				"ajax\t$.ajax()"
+			],
+			[
+				"pro",
+				"productos"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "maqueta5 practica/app.css",
+			"settings":
+			{
+				"buffer_size": 7116,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "maqueta2movil/index.html",
+			"settings":
+			{
+				"buffer_size": 1469,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "maqueta5 practica/index.html",
+			"settings":
+			{
+				"buffer_size": 4393,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 172.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"lis",
+				"Package Control: List Packages"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 575.0
+	},
+	"console":
+	{
+		"height": 213.0,
+		"history":
+		[
+			"import urllib2,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); os.makedirs( ipp ) if not os.path.exists(ipp) else None; urllib2.install_opener( urllib2.build_opener( urllib2.ProxyHandler()) ); by = urllib2.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); open( os.path.join( ipp, pf), 'wb' ).write(by) if dh == h else None; print('Error validating download (got %s instead of %s), please try manual install' % (dh, h) if dh != h else 'Please restart Sublime Text to finish installation')",
+			" import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) ",
+			" import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib2,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); os.makedirs( ipp ) if not os.path.exists(ipp) else None; urllib2.install_opener( urllib2.build_opener( urllib2.ProxyHandler()) ); by = urllib2.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); open( os.path.join( ipp, pf), 'wb' ).write(by) if dh == h else None; print('Error validating download (got %s instead of %s), please try manual install' % (dh, h) if dh != h else 'Please restart Sublime Text to finish installation') "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/var/www/html/master_css",
+		"/var/www/html/master_css/maqueta2movil",
+		"/var/www/html/master_css/maqueta4",
+		"/var/www/html/master_css/maqueta4/img",
+		"/var/www/html/master_css/maqueta5 practica",
+		"/var/www/html/master_css/maquetacion_movil",
+		"/var/www/html/master_css/maquetacion_movil/img"
+	],
+	"file_history":
+	[
+		"/var/www/html/master_css/maquetacion_movil/index.html",
+		"/var/www/html/master_css/maqueta5 practica/index.html",
+		"/var/www/html/master_css/maquetacion_movil/app.css",
+		"/var/www/html/master_css/maqueta4/index.html",
+		"/var/www/html/master_css/maquetacion 6(movil)/app.css",
+		"/var/www/html/master_css/maquetacion 6(movil)/index.html",
+		"/var/www/html/master_css/maqueta5/index.html",
+		"/var/www/html/master_css/maqueta5/app.css",
+		"/var/www/html/master_css/maqueta4/app.css",
+		"/var/www/html/master_css/maqueta3/index.html",
+		"/var/www/html/master_css/maqueta3/css/app.css",
+		"/var/www/html/master_css/maqueta2/css/app.css",
+		"/var/www/html/master_css/maqueta2/index.html",
+		"/var/www/html/master_css/maqueta1/index.html",
+		"/var/www/html/master_css/maqueta1/cajas.html",
+		"/var/www/html/master_css/maqueta1/contacto.html",
+		"/var/www/html/master_css/maqueta1/tablas.html",
+		"/var/www/html/master_css/maqueta1/css/app.css",
+		"/var/www/html/master_css/tablas.html",
+		"/var/www/html/master_css/css/app.css",
+		"/var/www/html/master_css/saldo.html",
+		"/var/www/html/master_css/secuelas.html",
+		"/var/www/html/master_css/index.html",
+		"/var/www/html/master_css/js/app.js",
+		"/var/www/html/archivos_base_buenas_practicas_java_script/5 - Organización de código/5.3 - duplicidad/index.html",
+		"/var/www/html/archivos_base_buenas_practicas_java_script/5 - Organización de código/5.3 - duplicidad/app.js",
+		"/var/www/html/archivos_base_buenas_practicas_java_script/5 - Organización de código/5.1 - consultas_innecesarias/app.js",
+		"/var/www/html/archivos_base_buenas_practicas_java_script/5 - Organización de código/5.1 - consultas_innecesarias/index.html",
+		"/var/www/html/archivos_base_buenas_practicas_java_script/4 - Estilo/4.2 - constantes/index.html",
+		"/var/www/html/archivos_base_buenas_practicas_java_script/4 - Estilo/4.2 - constantes/app.js",
+		"/var/www/html/archivos_base_buenas_practicas_java_script/3 - Variables, estructuras y objetos/3.5 - objetos_funciones_anonimas/app.js",
+		"/home/jorge/Escritorio/wordpress.sql",
+		"/var/www/html/wordpress/wp-content/themes/twentyseventeen/style.css",
+		"/var/www/html/wordpress/wp-content/themes/twentyseventeen/functions.php",
+		"/var/www/html/wordpress/wp-content/themes/twentyseventeen/template-parts/page/content-front-page-panels.php",
+		"/var/www/html/wordpress/wp-content/themes/twentyseventeen/template-parts/page/content-page.php",
+		"/var/www/html/wordpress/wp-content/themes/twentyseventeen/template-parts/navigation/navigation-top.php",
+		"/var/www/html/wordpress/wp-content/themes/twentyseventeen/template-parts/footer/footer-widgets.php",
+		"/var/www/html/wordpress/wp-content/themes/twentyseventeen/archive.php",
+		"/var/www/html/checador/routes/web.php",
+		"/var/www/html/checador/resources/views/compras/index.blade.php",
+		"/var/www/html/checador/resources/views/compras/table.blade.php",
+		"/var/www/html/checador/app/Http/Controllers/Almacen_controller.php",
+		"/var/www/html/checador/app/Http/Controllers/comprasController.php",
+		"/var/www/html/checador/resources/views/almacen/table.blade.php",
+		"/var/www/html/checador/resources/views/almacen/index.blade.php",
+		"/var/www/html/checador/app/Http/Controllers/ReportesPdf.php",
+		"/var/www/html/checador/resources/views/reportes/index.blade.php",
+		"/var/www/html/checador/resources/views/ventas/index.blade.php",
+		"/var/www/html/checador/app/Http/Controllers/ventasController.php",
+		"/var/www/html/checador/resources/views/ventas/table.blade.php",
+		"/var/www/html/checador/config/app.php",
+		"/var/www/html/checador/composer.json",
+		"/var/www/html/checador/resources/views/proveedores/index.blade.php",
+		"/var/www/html/checador/resources/views/reportes/datos_almacen.blade.php",
+		"/var/www/html/checador/app/Http/Controllers/Productos_controller.php",
+		"/var/www/html/checador/resources/views/layouts/app.blade.php",
+		"/var/www/html/checador/resources/views/proveedores/modal_create.blade.php",
+		"/var/www/html/checador/vendor/nahidulhasan/html2pdf/src/Pdf.php",
+		"/var/www/html/checador/resources/views/layouts/menu.blade.php",
+		"/var/www/html/checador/vendor/nahidulhasan/html2pdf/src/Html2pdfServiceProvider.php",
+		"/var/www/html/checador/vendor/nahidulhasan/html2pdf/src/Facades/Pdf.php",
+		"/var/www/html/checador/vendor/nahidulhasan/html2pdf/README.md",
+		"/var/www/html/checador/resources/views/productos/index.blade.php",
+		"/var/www/html/checador/resources/views/productos/table.blade.php",
+		"/var/www/html/checador/app/Almacen_model.php",
+		"/var/www/html/checador/resources/views/clientes/table.blade.php",
+		"/var/www/html/checador/app/Productos.php",
+		"/var/www/html/checador/app/Compras_detalle.php"
+	],
+	"find":
+	{
+		"height": 38.0
+	},
+	"find_in_files":
+	{
+		"height": 98.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"strong"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"folders":
+	[
+		{
+			"path": "/var/www/html/master_css"
+		}
+	],
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "maqueta5 practica/app.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7116,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6110,
+								6110
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 6298.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "maqueta2movil/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1469,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								139,
+								209
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "maqueta5 practica/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4393,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								366,
+								366
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 45.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 36.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "",
+	"replace":
+	{
+		"height": 44.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"wp-co",
+				"wp-config.php"
+			],
+			[
+				"foo",
+				"footer.php"
+			],
+			[
+				"hea",
+				"header.php"
+			],
+			[
+				"config/",
+				"config/app.php"
+			],
+			[
+				"com",
+				"composer.json"
+			],
+			[
+				"config/a",
+				"config/app.php"
+			],
+			[
+				"menu",
+				"resources/views/layouts/menu.blade.php"
+			],
+			[
+				"nahidulhasan/html2pdf/src/Pdf.php",
+				"vendor/nahidulhasan/html2pdf/src/Pdf.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"/var/www/html/stripe.sublime-workspace"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 306.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

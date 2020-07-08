@@ -1,0 +1,161 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.contenedor {
+  background-color: rgb(230, 228, 228);
+}
+
+.header {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  height: 80px;
+  background-color: rgb(19, 19, 19);
+}
+
+.header .logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  flex-grow: 1;
+  flex-basis: 50%;
+  height: 100%;
+}
+
+.header .logo img {
+  flex-basis: 108px;
+  height: 70px;
+}
+
+.header .sesion {
+  flex-grow: 1;
+  flex-basis: 25%;
+}
+
+.header .sesion h2 {
+  display: block;
+  text-align: right;
+  color: #fff;
+  font-weight: bold;
+  margin-right: 25px;
+}
+
+.container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+
+  margin-top: 2%;
+}
+
+.container .section {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  flex-grow: 1;
+  flex-basis: 90%;
+
+  min-height: auto;
+
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.container .section .tarjeta {
+  background-color: #ccc;
+  box-shadow: 0px 1px 5px #000;
+  margin: 1%;
+}
+
+.container .section .tarjeta article {
+  text-align: center;
+  line-height: 30px;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+.container .section2 {
+  flex-grow: 1;
+  flex-basis: 90%;
+
+  min-height: auto;
+
+  margin-top: 4%;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.container .section2 table {
+  width: 70%;
+  margin: 0px auto;
+  border-collapse: collapse;
+  border: 1px solid #000;
+  font-size: 25px;
+  text-align: center;
+  line-height: 40px;
+}
+
+.footer {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+
+  min-height: 120px;
+  background-color: rgb(19, 19, 19);
+  margin-top: 3%;
+}
+
+.footer .contacto {
+  flex-basis: 200px;
+  flex-grow: 1;
+
+  text-align: center;
+  color: #aaa;
+}
+
+.footer .saldo {
+  list-style: none;
+}
+
+.footer .saldo a {
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.footer .sociales .container_social {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.footer .sociales .container_social .social {
+  flex-basis: 50px;
+
+  height: 50px;
+
+  margin: 10px;
+}
+
+.footer .sociales .container_social .social img {
+  width: 50px;
+  height: 50px;
+}
+
+@media (max-width: 442px) {
+  .header .sesion h2 {
+    margin-top: 10px;
+  }
+
+  .container .section .tarjeta {
+    margin: 4%;
+  }
+
+  .container .section2 table {
+    font-size: 20px;
+    line-height: 38px;
+  }
+}

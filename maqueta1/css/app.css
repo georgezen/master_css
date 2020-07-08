@@ -1,0 +1,123 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: Verdana;
+	background-color: rgb(212,212,212);
+}
+
+h1{
+	padding: 25px;
+}
+
+.cabecera{
+	float: left;
+	margin:15px;
+}
+
+.container{
+	clear: both;
+	margin: 45px;
+}
+
+.enlaces{
+	margin-top: 40px;
+
+}
+
+#form{
+	margin: 25px;
+	width: 25%;
+
+
+}
+
+
+.form-group{
+	margin: 20px;
+}
+
+.form-group > input{
+	margin-top: 15px;
+}
+
+
+
+.form-control{
+	width: 60%;
+	padding: 10px;
+	border: 1px solid gray;
+	font-size: 18px;
+}
+
+.btn{
+	border-radius: 5px;
+	border: 1px solid white;
+	margin: 25px;
+	text-transform: uppercase;
+	color: white;
+	width: 40%;
+	height: 40px;
+	font-size: 18px;
+	cursor: pointer;
+}
+
+.btn-success{
+	background-color: #1F90E3;
+}
+
+.btn-success:hover{
+	background-color: #115E97;
+	border: 1px solid #115E97;
+}
+
+.justi{
+	font-size: 20px;
+	text-align: justify;
+	line-height: 30px;
+	margin-top: 20px;
+}
+
+.flotante{
+	float: left;
+	margin-left: 12px;
+}
+
+.table{
+	border: 1px solid gray;
+	width: 60%;
+	text-align: center;
+	margin-left: 50px;
+}
+
+thead{
+	font-size: 35px;
+}
+
+tbody{
+	font-size: 25px;
+}
+
+.cajas{
+	width: 200px;
+	height: 200px;
+	background-color: white;
+	border: 1px solid gray;
+	border-radius: 3px;
+	margin: 23px;
+	float: left;
+
+}
+#cajas{
+	width: 1250px;
+	border: 5px dashed black;
+	border-radius: 15px;
+	
+}
+
+.clear_fix{
+	clear: both;
+}
+
+
+
+

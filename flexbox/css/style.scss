@@ -1,0 +1,107 @@
+@use 'reset';
+
+@mixin color_cajas ($color){
+    background-color: $color;
+}
+.titulo{
+    display: block;
+    margin-top: 10px;
+    color: green;
+    text-align: center;
+}
+
+
+.container{
+    display: flex;
+    background-color: #ccc;
+    border: 3px solid black;
+
+    .caja{
+
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 3%;
+        margin-bottom: 3%;
+        border:1px solid black;
+        text-align: center;
+        font-size: 100px;
+        color: rgb(9, 91, 158);
+        
+    }
+
+    .red{
+        @include color_cajas(red);
+    }
+
+    .blue{
+        @include color_cajas(blue);
+    }
+
+    .orange{
+        @include color_cajas(orange);
+    }
+
+    .pink{
+        @include color_cajas(pink);
+    }
+    
+}
+
+.container2{
+    display: flex;
+    flex-flow: row wrap;
+    @include color_cajas(purple);
+
+    .caja2{
+        flex-grow: 1;
+        border: 1px solid red;
+        font-size: 30px;
+        margin: 10px;
+    }
+
+    .purple{
+        
+        @include color_cajas(purple);
+    }
+
+    .white{
+        @include color_cajas(white);
+    }
+
+    .black{
+        @include color_cajas(black);
+    }
+
+     .gray{
+        @include color_cajas(gray);
+    }
+}
+
+.container3{
+    display: flex;
+
+    //Esta propiedad establece los elementos flotantes linea tras linea y la orientacion de los elementos hijos
+    flex-flow: row wrap;
+    // esta propiedad sirve para dar estilos de alineado horizontal a los elementos hijos flexibles
+    justify-content: space-evenly;
+    height: 400px;
+    // esta propiedad sirve para dar estilos de alineado vertical a los elementos hijos flexibles
+    align-items: center;
+    margin-top: 3%;
+    @include color_cajas(#cccc22);
+    border:1px solid yellow;
+    .caja3{
+        
+        border:1px solid tomato;
+        font-size: 30px;
+        color: white;
+        margin: 20px;
+       
+    }
+
+    .caja3-1{
+        background-color: red;
+    }
+
+}
+

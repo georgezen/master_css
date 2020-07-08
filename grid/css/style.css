@@ -1,0 +1,51 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    /* Esta madre de grid se declara asi */
+    display: grid;
+    /* esta es la propieda grid para dar margenes entre elementos hijos */
+    grid-gap: 10px;
+    grid-template-columns: repeat(4,25%);
+
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border:1px solid red;
+    padding: 10px;
+
+}
+
+.caja{
+    border:1px solid black;
+    text-align: center;
+    font-size: 30px;
+    color: #e01717;
+    
+    
+}
+
+.container2{
+    display: grid;
+    height: 400px;
+    
+    /* con esta madre dictaminas las columnas y con  grid-template-rows, defines filas*/
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 50% 15% 30%;
+    width: 90%;
+    margin-top: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border:1px solid blue;
+
+
+}
+
+.caja2{
+    border:1px solid green;
+    margin: 10px;
+}
+

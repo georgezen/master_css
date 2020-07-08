@@ -1,0 +1,260 @@
+$fuente1: "Verdana";
+$fuente2: "Arial";
+$color_texto1: #aaa;
+$color2: rgba(0, 0, 0, 0.85);
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: rgba(212, 212, 212, 0.8);
+}
+
+.container_p {
+  width: 96%;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.header {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  height: 120px;
+  background-color: #222;
+
+  .titulo {
+    flex-basis: 55%;
+    flex-grow: 1;
+    font-size: 30px;
+    font-family: $fuente2;
+    text-align: center;
+    color: $color_texto1;
+  }
+
+  .menu {
+    flex-grow: 1;
+    flex-basis: 35%;
+  }
+
+  .menu ul {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+
+    list-style: none;
+  }
+
+  .menu ul li a {
+    flex-grow: 1;
+    font-size: 24px;
+    text-decoration: none;
+    color: $color_texto1;
+    font-family: $fuente1;
+    margin-right: 10px;
+    padding: 5px;
+    transition: all 300ms;
+  }
+
+  .menu ul li a:hover {
+    background-color: #bbb;
+    color: #102531;
+  }
+}
+
+.podcast {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+
+  flex-basis: 70%;
+  min-height: 120px;
+
+  margin-top: 40px;
+  margin-right: 15%;
+  margin-left: 15%;
+
+  .boxcast {
+    flex-grow: 1;
+    flex-basis: 100px;
+    height: 180px;
+    margin: 20px;
+    border: 1px solid #ccc;
+    font-family: $fuente2;
+    color: $color2;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0px 1px 5px #000;
+  }
+
+  .article h2 {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 40px;
+  }
+
+  .article ol li {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    list-style: none;
+  }
+}
+
+.container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+
+  .section {
+    display: flex;
+    flex-flow: row wrap;
+    flex-basis: 79%;
+    min-height: 600px;
+
+    .caja {
+      flex-grow: 1;
+      flex-basis: 250px;
+      margin: 10px;
+    }
+
+    .caja img {
+      width: 100%;
+    }
+  }
+
+  .aside {
+    display: flex;
+    flex-flow: column wrap;
+    flex-basis: 21%;
+
+    .form {
+      flex-grow: 1;
+      flex-basis: 10px;
+      align-items: center;
+      border: 1px solid #bbb;
+      text-align: center;
+      font-size: 25px;
+      font-family: $fuente2;
+      padding: 10px;
+    }
+
+    .form .label,
+    .form .inputs {
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+
+    .form .submit {
+      width: 100px;
+      height: 30px;
+      font-size: 20px;
+      border: none;
+      text-transform: uppercase;
+      box-shadow: 0px 1px 1px #000;
+      margin-top: 10px;
+      background-color: rgb(14, 163, 0);
+      color: #fff;
+      font-weight: bold;
+      border-radius: 5px;
+    }
+  }
+}
+
+.footer {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+
+  min-height: 120px;
+  background-color: $color2;
+
+  .container_f {
+    display: flex;
+    flex-flow: row wrap;
+    flex-basis: 90%;
+    justify-content: space-between;
+    align-items: center;
+
+    font-family: $fuente2;
+
+    .info_footer {
+      flex-grow: 1;
+      flex-basis: 250px;
+      margin: 10px;
+
+      text-align: center;
+    }
+
+    .info_footer span {
+      font-weight: bold;
+    }
+
+    .info_footer span,
+    .info_footer p {
+      font-size: 20px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      color: $color_texto1;
+    }
+  }
+}
+
+// parte de medias querys
+
+@media (max-width: 1324px) {
+  .container .section {
+    flex-basis: 75%;
+  }
+
+  .container .aside {
+    flex-basis: 23%;
+  }
+}
+
+@media (max-width: 1112px) {
+  .container .section {
+    flex-basis: 70%;
+  }
+
+  .container .aside {
+    flex-basis: 22%;
+  }
+}
+
+@media (max-width: 927px) {
+  .container {
+    flex-flow: column wrap;
+  }
+}
+
+@media (max-width: 761px) {
+  .container .aside {
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 3%;
+    margin-top: 1%;
+  }
+
+  .podcast {
+    margin-right: 12%;
+    margin-left: 12%;
+  }
+}	
+
+@media (max-width: 509px) {
+  .header {
+    padding-bottom: 20px;
+  }
+}
+
+
+@media (max-width: 392px) {
+	.container .aside {
+
+		margin-bottom: 4%;
+		margin-top: 4%;
+	}
+}

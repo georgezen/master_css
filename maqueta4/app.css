@@ -1,0 +1,308 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: Verdana;
+	list-style: none;
+	text-decoration: none;
+}
+
+body{
+	background-image: url("img/paven.png");
+}
+
+#header{
+	min-width: 1024px;
+	width: 100%;
+	height: 250px;
+	border: 1px solid black;
+}
+
+.clearfix{
+	clear: both;
+	float: none;
+}
+
+#header a{
+	text-decoration: none; 
+	text-align: center;
+	color: #70b231;
+	font-size: 25px;
+}
+
+#header #logotipo{
+	width: 770px;
+	margin: 0px auto;
+	padding-top: 25px;
+}
+
+#header #logotipo img{
+	display: block;
+	text-align: center;
+	margin: 0px auto;
+	width: 140px;
+}
+
+#nav{
+	width: 100%;
+	height: 40px;
+	border: 1px solid black;
+	background-color: #333333;
+	color: white;
+	font-size: 15px;
+	border: 0px 0px 2px gray;
+	box-shadow: 0px 0px 4px black;
+}
+
+#nav ul{
+	text-decoration: none;
+	list-style: none;	
+	margin:0px auto;
+	width: 800px;
+}
+
+#nav > ul > li{
+	line-height: 40px;
+	float: left;
+	border-right: 1px solid gray;
+	transition: all 400ms;
+}
+
+#nav > ul > li a{
+	display: block;
+	color: white;
+	text-decoration: none;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#nav > ul > li a:first-child{
+	border-left: 1px solid gray;
+}
+
+#nav > ul > li:hover{
+	background-color: #70b231;
+	cursor: pointer;
+}
+
+
+/*codigo para un menu desplegable*/
+#nav > ul > li > ul{
+	display: none;
+	position: absolute;
+	z-index: 1;
+	width: 160px;
+}
+
+#nav > ul > li:hover > ul{
+	display: block;
+}
+
+#nav > ul > li:hover > ul > li{
+	background-color: #70b231;
+	border-bottom: 1px solid white;
+	font-size: 13px;
+	line-height: 25px;
+	padding: 8px; 
+	transition: all 350ms;
+}
+
+#nav > ul > li:hover > ul > li > a{
+	color: rgb(249,249,249);
+}
+
+#nav > ul > li:hover > ul > li:hover{
+	background-color: #32830F;
+
+}
+/*fin codigo de menu desplegable*/
+
+/* inicio codigo de contenido*/
+#container{
+	width: 1250px;
+	min-height: 900px;
+	margin:0px auto;
+			
+}
+
+#lateral{
+	width: 250px;
+	background-color: white;
+	border: 1px solid #ccc;
+	margin-top: 20px;
+	float: left;
+}
+
+#lateral h5{
+	font-size: 20px;
+	text-transform: uppercase;
+	text-align: center;
+	color: #333333;
+	display: block;
+	box-shadow: 0px 1px 2px  black;
+	background-color: #ddd;
+	margin-bottom: 15px;
+}
+
+#lateral  .widget{
+	display: block;
+	margin-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding: 8px;
+	margin: 12px auto;
+}
+
+#lateral > .widget > .form{
+	display: block;
+	text-align: center;
+	margin-top: 20px;
+}
+
+.form  input[type='text']{
+	width: 180px;
+	padding: 5px;
+	border: 1px solid #ccc;
+
+}
+
+.form > input[type='text']:focus{
+
+	padding: 5px;
+	border: 1px solid black;
+	color: gray;
+	box-shadow: 0px 1px 1px black;
+
+}
+
+.form > input[type='button']{
+	width: 120px;
+	height: 30px;
+	text-transform: uppercase;
+	font-size: 15px;
+	line-height: 10px;
+	margin-top: 10px;
+	background-color: #38AB06;
+	color: white;
+	text-align: center;
+	border-radius: 10px;
+	border: 1px solid white;
+	cursor: pointer;
+	box-shadow: 0px 1px 2px black inset;
+	transition: all 350ms;
+}
+
+.form > input[type='button']:hover{
+	background-color: #297509;
+}
+
+.form label,.form input[type="text"]{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+#lateral > .widget:first-child > a,
+#lateral > ul > li > a{
+	display: block;
+	color: #38AB06;
+	text-transform: uppercase;
+	text-align: left;
+	margin-left: 5px;
+	margin-top: 3px;
+	margin-bottom: 3px;
+
+}
+
+#lateral > ul > li{
+	list-style: circle;
+	margin-left: 70px;
+}
+
+#lateral > .widget:nth-child(3) > h5{
+	color: #0951BE;
+}
+
+#lateral > .widget:nth-child(5) > h5{
+	color: #BE0919;
+}
+
+/*inicio codigo de secciones noticias*/
+.section{
+	width: 900px;
+	background-color: white;
+	border: 1px solid #ccc;
+	margin: 20px;
+	padding: 20px;
+}
+
+.flotante_container{
+	float: left;
+}
+
+.section h2{
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	font-weight: 800;
+}
+
+
+.section article{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align: justify;
+	line-height: 25px;
+}
+
+.section article a{
+	color: #4CA808;
+}
+
+#yellow{
+	color: yellow;
+}
+
+#red{
+	color: red;
+}
+
+#historico{
+	display: block;
+	float: right;
+	margin-right: 50px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+/*fin codigo de secciones noticias*/
+
+/* fin codigo de contenido*/
+
+/*para footer*/
+
+#footer{
+	width: 100%;
+	height: 60px;
+	border:1px solid black;
+	background-color: #151713;
+	
+}
+
+#footer  #footer_text{
+	display: block;
+	color: white;
+	text-align: center;
+	font-size: 15px;
+	padding: 12px;
+
+}
+
+#footer  #footer_text > p > a,
+#historico a{
+	color: #4CA808;
+}
+
+
+/*fin para footer*/
+
+
+
