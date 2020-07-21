@@ -302,7 +302,9 @@
   }
 
   .tarjetinas .tarjetas_img article p {
+    font-size: 13px;
     line-height: 18px;
+
   }
   .conocenos .conoce {
     flex-basis: 180px;
@@ -328,3 +330,97 @@
     height: 55%;
   }
 }
+
+@media (max-width:759px){
+
+
+.tarjetinas .tarjetas_img  img{ 
+    height: 45%;
+}
+
+
+
+
+
+.conocenos .conoce {
+    flex-basis: 160px;
+ 
+}
+
+.testimonios .testi-img .div-test img{
+  height: 45%;
+}
+}
+
+@media (max-width:636px){
+
+  .header .logo img {
+    width: 35%;
+  }
+
+
+  .header .menu ul li a{
+    font-size: 22px;
+    padding: 8px;
+  }
+  .tarjetinas .tarjetas_img{
+    flex-basis: 120px;
+  }
+  .tarjetinas .tarjetas_img img{
+    height: 35%;
+  }
+  .conocenos{
+   margin-top: -13%;
+
+  }
+
+  .conocenos .conoce{
+    margin-top: 1%;
+    margin-bottom: 1%;
+  }
+
+  .conocenos .conoce h3{
+    font-size: 20px;
+  }
+
+  .testimonios .testi-img .div-test img{
+    height: 35%;
+  }
+}
+
+@media (max-width:501px){
+  .container{
+    grid-template-rows:3% 15% 45% 8% 24% 13%;
+  }
+
+  .header .logo img{
+    width: 45%;
+  }
+  .tarjetinas .container-tarjetina{
+    flex-flow: column wrap;
+
+  }
+
+  .tarjetinas .tarjetas_img article p{
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
+
+@media (max-width:404px){
+  .container{
+    grid-template-rows: 3% 15% 41% 8% 31% 13%;
+  }
+
+  .header .logo img{
+    width: 55%;
+  }
+  .conocenos {
+    margin-top: -19%;
+  }
+
+  .testimonios .testi-img {
+    flex-flow: column wrap;
+  }
+}
+
